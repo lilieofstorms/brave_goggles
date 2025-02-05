@@ -3,18 +3,10 @@
 ! public: false
 ! author: Lily
 
-$discard,site=huffpost.com
-$discard,site=aljazeera.com
-$discard,site=whitehouse.gov
-$discard,site=telegraph.co.uk
-$discard,site=mirror.co.uk
-$discard,site=thesun.co.uk
-$discard,site=independent.co.uk
-$discard,site=dailymail.co.uk
-$discard,site=theguardian.com
-$discard,site=sky.com
-$discard,site=abc.com
-$discard,site=nbc.com
-$discard,site=cbs.com
-$discard,site=fox.com
-$discard,site=cnn.com
+$discard
+$boost,site=bbc.co.uk
+$boost,site=ap.org
+$boost,site=reuters.com
+$boost,site=npr.org
+$boost,site=c-span.org
+$boost,site=ft.com
